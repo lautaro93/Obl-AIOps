@@ -50,6 +50,9 @@ temp/
 # === Kubernetes / local ===
 k8s/.port-forward.pids
 
+# === Datasets descargados por notebooks (regenerables, archivos grandes) ===
+Implementacion K8S/Codigo/k8s/data/
+
 # === Secrets (evitar subir credenciales) ===
 *.pfx
 .env
