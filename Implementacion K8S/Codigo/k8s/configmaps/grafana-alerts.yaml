@@ -13,7 +13,7 @@ data:
           interval: 1m
           rules:
             - uid: bfo9oco12gk5cd
-              title: Memoria del nodo alta
+              title: (1) Memoria del nodo alta
               condition: C
               data:
                 - refId: A
@@ -65,7 +65,7 @@ data:
               labels: {}
               isPaused: false
             - uid: bfo9ogc93ytc0d
-              title: CPU del nodo alta
+              title: (2) CPU del nodo alta
               condition: C
               data:
                 - refId: A
@@ -117,7 +117,7 @@ data:
               labels: {}
               isPaused: false
             - uid: efo9omfbyvcowa
-              title: Disco casi lleno
+              title: (3) Disco casi lleno
               condition: C
               data:
                 - refId: A
@@ -169,7 +169,7 @@ data:
               labels: {}
               isPaused: false
             - uid: efo9ooakwyl8gf
-              title: CPU throttling de pod
+              title: (4) CPU throttling de pod
               condition: C
               data:
                 - refId: A
@@ -221,7 +221,7 @@ data:
               labels: {}
               isPaused: false
             - uid: bfo9oq780ifpcc
-              title: Memoria de pod alta (MiB)
+              title: (5) Memoria de pod alta (MiB)
               condition: C
               data:
                 - refId: A

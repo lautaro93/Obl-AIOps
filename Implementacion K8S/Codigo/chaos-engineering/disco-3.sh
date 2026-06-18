@@ -1,5 +1,5 @@
 #!/bin/sh
-# Chaos: llenar disco/ephemeral en pod. Uso: ./volume-spike.sh [deployment] [MB]
+# Chaos: llenar disco/ephemeral en pod. Uso: ./disco-3.sh [deployment] [MB]
 DEPLOY="${1:-pharmago-api-gateway}"
 MB="${2:-300}"
 POD=$(kubectl get pod -n pharmago -l app="$DEPLOY" -o jsonpath='{.items[0].metadata.name}' 2>/dev/null)
